@@ -1,15 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:fw2fw/pages/intro.dart';
 
-void main() => runApp(FW2FS());
+void main() => runApp(AgreecultureApp());
 
-class FW2FS extends StatelessWidget {
+class AgreecultureApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Food waste to food security',
+      title: 'Agreeculture App',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primaryColor: Colors.cyan[600],
       ),
       home: Intro(),
     );

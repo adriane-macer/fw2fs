@@ -20,16 +20,16 @@ class IntroState extends State<Intro> {
     super.initState();
     slides.add(
       new Slide(
-        title: "F2F: Food Waste to Food Security",
+        title: "Agreeculture App",
         styleTitle: TextStyle(
           color: Colors.blue,
           fontSize: 24.0,
         ),
-        description: "f2f converts your waste into real value",
+        description: "Ask advice on planting crops or tell people about your harvest",
         styleDescription: TextStyle(
           fontSize: 18.0,
         ),
-        pathImage: "assets/f2f.png",
+//        pathImage: "assets/f2f.png",
       ),
     );
   }
